@@ -1,0 +1,82 @@
+body{
+    background:#FAFAFA;
+    margin:0;
+    padding:0;
+}
+
+header {
+    background:#19B5FE;
+    padding:2% 5%;
+    font-size:125%;
+    color:white;
+    font-weight:bold;
+}
+
+.container {
+    width:90%;
+    margin:0 auto;
+    margin-top:2%;
+}
+
+.container table{
+    width:100%;
+    border-collapse:collapse;
+}
+
+#log {
+        max-height:450px;
+    overflow:auto;
+
+}
+
+.header {
+    background:#22313F;
+    color:white;
+    font-weight:bold;
+    text-align:left;
+    height:50px;
+}
+
+.sl {
+    text-align:center;
+    width:5%;
+}
+
+.level {
+    width:10%;
+}
+
+.tag {
+    width:15%;
+}
+
+.message {
+    width:70%;
+}
+
+.data {
+    height:40px;
+    color:#848484;
+}
+
+
+.data:nth-child(odd){
+    background:#F2F1EF;
+}
+
+.data:nth-child(even){
+    background:white;
+}
+
+::-webkit-scrollbar {
+    width: 6px;
+}
+ 
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+}
+ 
+::-webkit-scrollbar-thumb {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+}
+
